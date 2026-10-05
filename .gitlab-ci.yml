@@ -1,0 +1,5 @@
+test_linux:
+  image: ubuntu:22.04
+  script:
+    - echo "Bonjour depuis Linux !"
+    - uname -a
