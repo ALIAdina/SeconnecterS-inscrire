@@ -1,5 +1,4 @@
-test_linux:
-  image: ubuntu:22.04
+test_docker:
+  image: docker:27
   script:
-    - echo "Bonjour depuis Linux !"
-    - uname -a
+    - docker --version
