@@ -36,7 +36,7 @@ const SeconnectersInscrire = () => {
        
         <div className="submit_container">
             <div className={action==="S'inscrire"?"submit":"submit gray"} onClick={()=>{setAction("S'inscrire")}}>S'inscrire</div>
-            <div className={action==="Se connecter"?"submit":"submit gray"}onClick={()=>{action=setAction("Se connecter")}}>Se connecter</div>
+            <div className={action==="Se connecter"?"submit":"submit gray"}onClick={()=>{setAction("Se connecter")}}>Se connecter</div>
         </div>
     </div>
   )
