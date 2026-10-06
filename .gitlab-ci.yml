@@ -1,4 +1,4 @@
 test_docker:
   image: docker:27
   script:
-    - docker --version
+    - docker build -t mon-app .
